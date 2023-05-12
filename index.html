@@ -65,7 +65,15 @@
           <li>git pull: fetch and merge any commits from the tracking remote branch</li>
           <li>git pull origin main: origin keyword indicates the source of the pull will be in the GitHub repo. After origin, you must specify the branch to pull from</li>
           <li>git add: adds modifications in the current working branch to the staging area. The -A flag indicates that we want to add ALL changes</li>
-          
+          <li>Order for pull request: <br>
+            git add -A <br>
+            git commit -m "[]" <br>
+            git pull origin main <br>
+            git push origin branch_name <br>
+            Submit new pull request. <br>
+            git checkout main <br>
+            git pull origin main
+          </li>
         </ul>
       </section>
    
